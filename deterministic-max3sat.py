@@ -33,7 +33,7 @@ def expectation(v, E):
         else:
             numVars = len(c)
             numNotV = c.count(-v)
-            e = e + 1-2 ** -(numVars-numNotV)
+            e = e + 1 - 2**-(numVars-numNotV)
 
     return e
 
