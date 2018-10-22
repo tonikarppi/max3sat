@@ -27,7 +27,6 @@ def max3sat(k, E):
 # Returns the expectation as a floating point number.
 def expectation(v, E):
     e = 0
-
     for c in E:
         if v in c:
             e = e + 1
